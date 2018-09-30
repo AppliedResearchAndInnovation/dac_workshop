@@ -127,24 +127,33 @@ So, we are now going to make the **Map Chart** of **State Sales Distribution**:
 1. Since its the States that we wish to analyse, drag **States** onto the empty area, so that you automatically see a Map, with small Circles. Follow this step by dragging **Profits** next. You will notice the size of these circles changing to represent the varying values of Profits. This is called a **Symbol Map**. But we are going to convert this into a Filled one, by going to Show Me, and selecting the **Filled Map**.
 1. Drag **Profits** again, but this time onto **Label** in the **Marks Pane**, to view the Profit Values mapped as well, like so:
 
+![Screen 14](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen%20Shot%202018-09-30%20at%202.13.55%20PM.png)
+
+**California and New York** are the top most sellers from **West and East region**, but unfortunately there are other States such as Texas, Colorado which even after having good Sales, have negative Profits! This is certainly not good news for the Superstore. You can perceive a good analysis for the other States as well.
+
+And lastly, here are the steps for making the **Scatter Plot** of **Sales and Profit Analysis**:
+
+1. Drag **Sales** onto **Rows**, and **Profit** onto **Columns**. You will see one tiny circle, which actually represents the Total Sales and Profit Values.
+1. To get more information, drag **States** onto the graph created, so that these circles / bubbles scatter to represent the individual States.
+1. To better understand the central tendency of the data, we have also added a **Median axis** as Reference Line. This can be easily done by right clicking on the **Sales / Profit Axis – > Adding Reference Line** and choosing Median over the default Average Reference.
+1. Finally for some more insight, drag **States** again, but this time onto **Label** in the **Marks Pane**, and get:
+
+![Screen 15](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen_15.png)
+
+The findings from the **Map chart** become more prominent with the following **Scatter plot** inferences:
+
+1. The states in the top right, with high Sales and high Profits mean good business for the organisation.
+1. States with positive Sales and Profits, but near the two respective axis are the ones where there is some scope of improvement.
+1. Whereas the states that belong to the 2nd or 3rd quarter are the ones which are not generating much revenue.
+
+
+### Creating a dashboard: 
+One of the great things about Tableau is that it lets you interact with the visuals.
+
+**(Steps to come)**
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                        
