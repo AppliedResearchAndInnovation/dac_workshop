@@ -88,26 +88,46 @@ Let’s begin with the simplest visualisation, and that is displaying the **Net 
 
 So we have the net Sales and Profit values, let’s delve a little deeper by getting the **Sales and Profit Values over the years**. Let's make another, but a more detailed, Text Table :
 
-1. Drag Order Date from Dimensions and Sales from Measures to Rows.
-1. Right click on the green Sales Pill, and select Discrete, in place of Continuous, since we want the explicit values and not the bar graphs.
-1. Finally drag Profit on the ‘abc’ column to get:
+1. Drag **Order Date** from Dimensions and **Sales** from Measures to Rows.
+1. Right click on the green **Sales Pill**, and select **Discrete**, in place of **Continuous**, since we want the explicit values and not the bar graphs.
+1. Finally drag **Profit** on the ‘abc’ column to get:
 ![Screen 8](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen_8.png)
-1. Do the same thing for Monthly Sales and Profit Values, but this time change the format of Order Date, from Year to Month, by right clicking on Order Date in the Rows, and choosing Month, to get something like this:
+1. Do the same thing for **Monthly Sales and Profit Values**, but this time change the format of **Order Date**, from **Year to Month**, by right clicking on **Order Date** in the **Rows**, and choosing **Month**, to get something like this:
 ![Screen 9](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen_9.png)
 
 We have just covered the numeric part of the Dashboard, but that is not its selling point. It’s the Line Charts.Let's quickly learn how to make one:
 
-1. To create the chart of Sales and Profit Growth, drag Order Date over the Columns, Sales over Rows and then Profit over the formed Sales axis – so that you see an equals sign – to get the following:
+1. To create the chart of **Sales and Profit Growth**, drag **Order Date** over the **Columns**, **Sales** over **Rows** and then **Profit** over the formed **Sales axis** – so that you see an equals sign – to get the following:
 
 ![Screen 10](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen_10.png)
 
-1. Repeat the same to find the Peak Sales and Profit Months, but again change the format of Order Date, from Year to Month, and get:
+1. Repeat the same to find the **Peak Sales and Profit Months**, but again change the format of **Order Date**, from **Year to Month**, and get:
 
 ![Screen 11](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen_11.png)
 
-If you were to click on Show Me, you will see the different types of Line Charts that you can make, and if you were to hover over each of them, you will get to see their Dimension and Measure requirements too. In case you ever feel lost, I recommend referring to Show Me.
+If you were to click on **Show Me**, you will see the different types of Line Charts that you can make, and if you were to hover over each of them, you will get to see their Dimension and Measure requirements too. In case you ever feel lost, I recommend referring to Show Me.
 
 With the previous visualisations, we had gotten a brief overview of the Superstore. Let’s dig a little deeper now. The next thing that I can think of exploring is the demographic of the Sales and Profit. What are the States that have the highest Sales Revenue, which ones are generating the maximum Profits:
+
+
+Before discussing the inferences, let’s first create the Pie Chart of Region Sales :
+
+1. Drag **Regions** onto **Rows** and **Sales** onto **Columns**.
+1. Go to **Show Me**, and select the **Pie Chart**.
+1. And finally drag **Sales** over the **Label** in the **Marks Pane** to get:
+
+![Screen 13](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen_13.png)
+
+From the visual it’s pretty evident that the two opposite ends, East and West are leading in the Sales game. Let’s dissect this a bit more.
+
+**Note:** Whenever you have some geographical data, it is always advisable to plot and see it on a Map to gain better insights.
+
+So, we are now going to make the **Map Chart** of **State Sales Distribution**:
+
+1. Since its the States that we wish to analyse, drag **States** onto the empty area, so that you automatically see a Map, with small Circles. Follow this step by dragging **Profits** next. You will notice the size of these circles changing to represent the varying values of Profits. This is called a **Symbol Map**. But we are going to convert this into a Filled one, by going to Show Me, and selecting the **Filled Map**.
+1. Drag **Profits** again, but this time onto **Label** in the **Marks Pane**, to view the Profit Values mapped as well, like so:
+
+
 
 
 
