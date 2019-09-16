@@ -152,7 +152,6 @@ One of the great things about Tableau is that it lets you interact with the visu
 
 ![Screen 16](https://raw.githubusercontent.com/AppliedResearchAndInnovation/dac_workshop/master/images/Screen%20Shot%202018-10-06%20at%203.27.43%20PM.png)
 
-**(Steps to come)**
 
 
 
